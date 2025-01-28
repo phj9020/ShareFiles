@@ -1,9 +1,8 @@
-import React from 'react'
+import AuthForm from "@/app/components/AuthForm";
+import React from "react";
 
 function SignUp() {
-  return (
-    <div>Sign up</div>
-  )
+  return <AuthForm type="sign-up" />;
 }
 
 export default SignUp;
